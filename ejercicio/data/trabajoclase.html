@@ -24,7 +24,7 @@
             }).then(function(data) {
               for(var i=0; i<data.length; i++){
                 console.log(data[i]);
-                $('#mensajeFinal').append("<h2>Institucion"+data[i].["Nombre-Educativa"] + " Data N.-"+ (i+1) +"</h1> <p> <b>AMIE:</b> "+ data[i].AMIE + "<b>Provincia:</b> "+ data[i].Provincia + "<b>Canton:</b> "+ data[i].Canton + "<b>Parroquia:</b> "+ data[i].Parroquia + "<b>ZonaAdministrativa:</b> "+ data[i].ZonaAdministrativa + "<b>CodigoDistrito:</b> "+ data[i].CodigoDistrito + "<b>Sostenimiento:</b> "+ data[i].Sostenimiento + "<b>RegimenEscolar:</b> "+ data[i].RegimenEscolar + "<b>Modalidad:</b> "+ data[i].Modalidad + "<b>Jornada:</b> "+ data[i].Jornada + "<b>Nivel:</b> "+ data[i].Nivel + "<b>Etnia:</b> "+ data[i].Etnia + "<b>Numeroestudiantes:</b> "+ data[i].Numeroestudiantes + "<b>Numerodocentes:</b> "+ data[i].Numerodocentes + "<b>Estado:</b> "+ data[i].Estado + "</p>");
+                $('#mensajeFinal').append("<h1> Data N.-"+ (i+1) +"</h1> <p> <b>AMIE:</b> "+ data[i].AMIE + "<b>Provincia:</b> "+ data[i].Provincia + "<b>Canton:</b> "+ data[i].Canton + "<b>Parroquia:</b> "+ data[i].Parroquia + "<b>ZonaAdministrativa:</b> "+ data[i].ZonaAdministrativa + "<b>CodigoDistrito:</b> "+ data[i].CodigoDistrito + "<b>Sostenimiento:</b> "+ data[i].Sostenimiento + "<b>RegimenEscolar:</b> "+ data[i].RegimenEscolar + "<b>Modalidad:</b> "+ data[i].Modalidad + "<b>Jornada:</b> "+ data[i].Jornada + "<b>Nivel:</b> "+ data[i].Nivel + "<b>Etnia:</b> "+ data[i].Etnia + "<b>Numeroestudiantes:</b> "+ data[i].Numeroestudiantes + "<b>Numerodocentes:</b> "+ data[i].Numerodocentes + "<b>Estado:</b> "+ data[i].Estado + "</p>");
               }
             });      
       });
